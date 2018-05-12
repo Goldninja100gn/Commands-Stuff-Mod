@@ -1,0 +1,129 @@
+{
+  "mod/mcreator/mcreator_clearEffects$CommandclearEffects": {
+    "name": "mod/mcreator/mcreator_clearEffects$CommandclearEffects",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_clearInventory$CommandclearInventory": {
+    "name": "mod/mcreator/mcreator_clearInventory$CommandclearInventory",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_clearLag$CommandclearLag": {
+    "name": "mod/mcreator/mcreator_clearLag$CommandclearLag",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_giveUp$CommandgiveUp": {
+    "name": "mod/mcreator/mcreator_giveUp$CommandgiveUp",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_gma$Commandgma": {
+    "name": "mod/mcreator/mcreator_gma$Commandgma",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_gmc$Commandgmc": {
+    "name": "mod/mcreator/mcreator_gmc$Commandgmc",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_gms$Commandgms": {
+    "name": "mod/mcreator/mcreator_gms$Commandgms",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_gmsp$Commandgmsp": {
+    "name": "mod/mcreator/mcreator_gmsp$Commandgmsp",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_godmode$Commandgodmode": {
+    "name": "mod/mcreator/mcreator_godmode$Commandgodmode",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_powertoolWinner$powertoolWinnerTrigger": {
+    "name": "mod/mcreator/mcreator_powertoolWinner$powertoolWinnerTrigger",
+    "interfaces": [
+      "net/minecraft/advancements/ICriterionTrigger"
+    ]
+  },
+  "mod/mcreator/modname": {
+    "name": "mod/mcreator/modname",
+    "interfaces": [
+      "net/minecraftforge/fml/common/IFuelHandler",
+      "net/minecraftforge/fml/common/IWorldGenerator"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "mod/mcreator/modname",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "modid": {
+            "value": "modname"
+          },
+          "version": {
+            "value": "1.0.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "mod.mcreator.ClientProxymodname"
+          },
+          "serverSide": {
+            "value": "mod.mcreator.CommonProxymodname"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "instance",
+        "value": {
+          "value": "modname"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "load(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      }
+    ]
+  },
+  "mod/mcreator/modname$GuiHandler": {
+    "name": "mod/mcreator/modname$GuiHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/IGuiHandler"
+    ]
+  }
+}

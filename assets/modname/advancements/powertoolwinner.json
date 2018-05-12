@@ -1,0 +1,20 @@
+{
+    "display": {
+"background": "minecraft:textures/blocks/stone.png",
+        "icon": {
+            "item": "modname:powertoolgmc"
+        },
+        "title": {
+            "translate": "advancements.powertoolwinner.title"
+        },
+        "description": {
+            "translate": "advancements.powertoolwinner.descr"
+        },
+		"frame": "task"
+    },
+    "criteria": {
+        "powertoolwinner": {
+            "trigger": "powertoolwinner"
+        }
+    }
+}
