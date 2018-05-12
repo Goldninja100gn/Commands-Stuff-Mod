@@ -11,7 +11,7 @@
   "updateUrl": "",
   "authorList": [ "Goldninja100gn" ],
   "parent": "",
-  "screenshots": [],
+  "screenshots": [ "/Screenshots/screenshot_1.png", "/Screenshots/screenshot_2.png", "/Screenshots/screenshot_3.png", "/Screenshots/screenshot_4.png" ],
   "dependencies": [
      "mod_MinecraftForge"
   ]
